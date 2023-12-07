@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Casa de Adobe</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2BhXHO1cJJaK6uUJiRhjtSy0MDTaXasA&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <style>
+      gmp-map {
+        height: 100%;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+            text-decoration: none; 
+            color: green; 
+            margin-left: 10px; 
+        }
+    </style>
+  </head>
+  <body>         
+    </nav>
+    <gmp-map center="31.59435272216797,-106.40325164794922" zoom="14" map-id="DEMO_MAP_ID">
+    <!-- ubicacion del lugar con altitud y latitud -->
+      <gmp-advanced-marker position="31.7837819,-106.5288794,17" title="My location">
+      </gmp-advanced-marker>
+    </gmp-map>
+  </body>
+</html>
